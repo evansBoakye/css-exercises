@@ -1,5 +1,5 @@
 body {
-  background: gray;
+  background: white;
   font-family: sans-serif;
 }
 
@@ -13,8 +13,20 @@ body {
 .content,
 .button-container {
   background: dodgerblue;
+  padding: 14px;
+  font-size: 16px; 
+  margin: 8px auto;
+}
+
+.button-container {
+text-align: center;
 }
 
 button {
   background: white;
+  padding: 6px 20px;
+  margin-left: 128px;
+  margin-top: 2px;
+  display: block;
+  border-color: black;
 }
